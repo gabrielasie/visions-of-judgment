@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Visions of Judgment — Dante's Inferno in Art
 
-## Getting Started
+An honors thesis in Art History presented as a web exhibition. This project examines how four artists — William Blake, Gustave Doré, Simone Martini, and Salvador Dalí — interpreted the same three cantos of Dante's *Inferno* across seven centuries, arguing that visual interpretation is always argumentation.
 
-First, run the development server:
+**Gabriela Sierocka · University of Notre Dame · Glynn Family Honors Program · Spring 2026**
+Advisor: Professor Theodore J. Cachey Jr.
+
+---
+
+## Running Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Adding Images
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Place artwork image files in `public/images/` using the following exact filenames:
 
-## Learn More
+| File | Artwork |
+|------|---------|
+| `blake-canto-v.jpg` | Blake — The Whirlwind of Lovers |
+| `blake-canto-xiii.jpg` | Blake — The Wood of the Self-Murderers |
+| `blake-canto-xxxiv.jpg` | Blake — Dante and Virgil Escaping from Hell |
+| `dore-canto-v.jpg` | Doré — Paolo and Francesca da Rimini |
+| `dore-canto-xiii.jpg` | Doré — The Forest of Suicides |
+| `dore-canto-xxxiv.jpg` | Doré — Lucifer, King of Hell |
+| `martini-canto-v.jpg` | Martini — Paolo and Francesca (Frontispiece) |
+| `martini-canto-xiii.jpg` | Martini — Pier della Vigna in the Blighted Wood |
+| `martini-canto-xxxiv.jpg` | Martini — Lucifer Enthroned in Cocytus |
+| `dali-canto-v.jpg` | Dalí — Paolo and Francesca |
+| `dali-canto-xiii.jpg` | Dalí — The Wood of Self-Destroyers |
+| `dali-canto-xxxiv.jpg` | Dalí — Lucifer |
 
-To learn more about Next.js, take a look at the following resources:
+Images must be `.jpg`. If a file is missing, a dark placeholder showing the artwork title is displayed automatically.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js 16](https://nextjs.org) (App Router)
+- [Tailwind CSS v4](https://tailwindcss.com)
+- [EB Garamond](https://fonts.google.com/specimen/EB+Garamond) + [Inter](https://fonts.google.com/specimen/Inter) via `next/font`
+- TypeScript, strict mode
 
-## Deploy on Vercel
+## Deploying
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Push to GitHub and import into [Vercel](https://vercel.com). No environment variables required.
