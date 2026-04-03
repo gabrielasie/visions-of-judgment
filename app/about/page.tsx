@@ -63,15 +63,16 @@ export default function AboutPage() {
             Methodology
           </h2>
           <p className="font-serif text-parchment leading-[1.85] text-[1.0625rem]">
-            The comparative method employed here draws on iconographic analysis,
-            reception history, and the theory of ekphrasis as developed by
-            W.J.T. Mitchell and others. Each artwork is read first against
-            Dante&rsquo;s text, then against the artist&rsquo;s wider body of
-            work, and finally against the historical and ideological conditions
-            of its production&mdash;resisting the notion of a single
-            &ldquo;correct&rdquo; visual reading in favor of mapping the full
-            range of interpretive positions the poem has made available to its
-            illustrators.
+            This thesis employs an interdisciplinary approach, 
+            drawing from art history, literary criticism, and visual studies. 
+            Each artist is treated not merely as an illustrator but as an 
+            interpreter who probes the deeper symbolic and psychological 
+            resonances of Dante's poem. In line with Eugene Nassar's principle of 'fidelity to tone' 
+            rather than literal accuracy — developed in his essay 
+            'Dante Illustration: Fidelity to Text and Tone as Criterion' 
+            (Comparative Literature Studies, 1993) — the project views each body of work 
+            as a creative negotiation with Dante's vision: filtering it through 
+            Romantic idealism, modernist fragmentation, and postwar Surrealism.
           </p>
         </section>
 
@@ -82,17 +83,6 @@ export default function AboutPage() {
           <h2 className="font-sans text-xs tracking-[0.25em] uppercase text-dust mb-6">
             Acknowledgments
           </h2>
-          <p className="font-serif text-parchment leading-[1.85] text-[1.0625rem]">
-            This project would not exist without the guidance of Professor
-            Theodore J. Cachey Jr., whose seminar on Dante and the visual arts
-            first made this question legible to me and whose scholarly generosity
-            over two years of advising gave it its present shape. His work on
-            Dante reception and the cartography of the <em>Commedia</em> has
-            been a constant orienting presence, and his insistence that close
-            reading and historical rigor are not in competition but in
-            conversation is the methodological conviction that underlies every
-            page of this thesis.
-          </p>
         </section>
 
         <div className="border-t border-gold/15" />
