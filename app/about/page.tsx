@@ -103,7 +103,7 @@ export default function AboutPage() {
           <img
             src="/images/author.jpg"
             alt="Gabriela Sierocka"
-            className="rounded-full w-48 h-48 object-cover ring-2 ring-offset-2 ring-offset-[#0a0a0a] ring-[#c9a84c] mb-6"
+            className="rounded-full w-48 h-48 object-cover object-top ring-2 ring-offset-2 ring-offset-[#0a0a0a] ring-[#c9a84c] mb-6"
           />
           <h2 className="font-sans text-xs tracking-[0.25em] uppercase text-dust mb-6">
             Author
