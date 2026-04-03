@@ -79,11 +79,6 @@ export default function AboutPage() {
         <div className="border-t border-gold/15" />
 
         {/* Acknowledgments */}
-        <section>
-          <h2 className="font-sans text-xs tracking-[0.25em] uppercase text-dust mb-6">
-            Acknowledgments
-          </h2>
-        </section>
 
         <div className="border-t border-gold/15" />
 
