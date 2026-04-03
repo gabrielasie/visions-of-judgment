@@ -13,9 +13,8 @@ export default function ArtistsPage() {
         </p>
         <h1 className="font-serif text-5xl text-parchment mb-6">Artists</h1>
         <p className="font-serif text-dust text-lg max-w-2xl leading-relaxed">
-          Seven centuries separate the earliest from the latest of these four
-          artists. Each brings a distinct historical moment, visual tradition,
-          and interpretive argument to the same infernal text.
+          Each brings a distinct historical moment, visual tradition, and
+          interpretive argument to the same infernal text.
         </p>
       </header>
 

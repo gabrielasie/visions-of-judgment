@@ -35,22 +35,27 @@ export default function AboutPage() {
               time, medium, and artistic intent.
             </p>
             <p>
-              Through interdisciplinary inquiry grounded in art history,
-              theology, and literary interpretation, the thesis argues that
-              visual reinterpretations of Dante&rsquo;s <em>Inferno</em>{' '}
-              reflect the gradual transformation of Hell from a moral and
-              theological construct into a psychological and metaphysical
-              space&mdash;revealing the poem&rsquo;s enduring power to mirror
-              the evolving human condition.
-            </p>
-            <p>
-              Blake&rsquo;s mystical Romanticism reframes sin as spiritual
-              struggle; Dor&eacute;&rsquo;s engravings monumentalize divine
+              This study employs comparative iconographic analysis, close
+              reading of Dante&rsquo;s text, and historical contextualization
+              to trace the evolving visual hermeneutics of the{' '}
+              <em>Inferno</em>. Through interdisciplinary inquiry grounded in
+              art history, theology, and literary interpretation, it reveals
+              how each artist used Dante&rsquo;s moral architecture to
+              articulate the anxieties of their own age. Blake&rsquo;s mystical
+              Romanticism reframes sin as spiritual struggle and imagination as
+              redemption; Dor&eacute;&rsquo;s engravings monumentalize divine
               justice within the moral certainties of the nineteenth century;
               Martini&rsquo;s Symbolist illustrations expose psychological
               fragmentation and existential dread; and Dal&iacute;&rsquo;s
               Surrealist watercolors transform Hell into a subconscious
               landscape of trauma and ambiguity in the postwar world.
+            </p>
+            <p>
+              This thesis argues that visual reinterpretations of Dante&rsquo;s{' '}
+              <em>Inferno</em> reflect the gradual transformation of Hell from
+              a moral and theological construct into a psychological and
+              metaphysical space, revealing the poem&rsquo;s enduring power to
+              mirror the evolving human condition.
             </p>
           </div>
         </section>
@@ -63,22 +68,55 @@ export default function AboutPage() {
             Methodology
           </h2>
           <p className="font-serif text-parchment leading-[1.85] text-[1.0625rem]">
-            This thesis employs an interdisciplinary approach, 
-            drawing from art history, literary criticism, and visual studies. 
-            Each artist is treated not merely as an illustrator but as an 
-            interpreter who probes the deeper symbolic and psychological 
-            resonances of Dante's poem. In line with Eugene Nassar's principle of 'fidelity to tone' 
-            rather than literal accuracy — developed in his essay 
-            'Dante Illustration: Fidelity to Text and Tone as Criterion' 
-            (Comparative Literature Studies, 1993) — the project views each body of work 
-            as a creative negotiation with Dante's vision: filtering it through 
-            Romantic idealism, modernist fragmentation, and postwar Surrealism.
+            This thesis employs an interdisciplinary approach, drawing from art
+            history, literary criticism, and visual studies. Each artist is
+            treated not merely as an illustrator but as an interpreter who
+            probes the deeper symbolic and psychological resonances of
+            Dante&rsquo;s poem. In line with Eugene Nassar&rsquo;s principle
+            of &lsquo;fidelity to tone&rsquo; rather than literal accuracy
+            &mdash; developed in his essay &lsquo;Dante Illustration: Fidelity
+            to Text and Tone as Criterion&rsquo; (<em>Comparative Literature
+            Studies</em> 30, no.&thinsp;1, 1993) &mdash; the project views
+            each body of work as a creative negotiation with Dante&rsquo;s
+            vision: filtering it through Romantic idealism, modernist
+            fragmentation, and postwar Surrealism.
           </p>
         </section>
 
         <div className="border-t border-gold/15" />
 
         {/* Acknowledgments */}
+        <section>
+          <h2 className="font-sans text-xs tracking-[0.25em] uppercase text-dust mb-6">
+            Acknowledgments
+          </h2>
+          <div className="font-serif text-parchment leading-[1.85] text-[1.0625rem] flex flex-col gap-4">
+            <p>
+              This thesis would not exist without Professor Theodore J. Cachey
+              Jr., whose teaching first showed me that scholarship and wonder
+              are not in tension. It was in his classroom, and later across
+              Italy, that I learned what it means to truly look. He had a way
+              of stopping mid-stride to point at something most of us had
+              walked past without seeing: a stone mosaic nearly lost underfoot,
+              the unexpected grace of Pietralata, beauty folded into the
+              absurdity of those streets as if it had always been there,
+              waiting for someone patient enough to notice. He taught us that
+              beauty does not announce itself. You have to be willing to reach
+              for it, even when you are not sure what you are looking for.
+            </p>
+            <p>
+              That lesson lives on every page of this thesis. To write about
+              artists who descended into Hell in search of something luminous
+              is, in a way, to follow the example he set.
+            </p>
+            <p>
+              I am also grateful to the Department of Romance Languages and the
+              Glynn Family Honors Program at the University of Notre Dame, and
+              to all those who accompanied me on the journey to Italy and
+              looked alongside me.
+            </p>
+          </div>
+        </section>
 
         <div className="border-t border-gold/15" />
 
