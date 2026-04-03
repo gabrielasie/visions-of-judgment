@@ -147,14 +147,15 @@ function ArtworkCard({
       className="bg-canvas p-6 flex flex-col gap-4 cursor-pointer border border-transparent hover:border-gold/40 transition-colors"
     >
       {/* Artwork image */}
-      <div className="relative aspect-[4/3] overflow-hidden bg-[#0d0d0d] border border-gold/10">
+      <div className="relative w-full max-h-[400px] overflow-hidden bg-[#111] border border-gold/10 flex items-center justify-center" style={{ minHeight: '200px' }}>
         {!imgError ? (
           <Image
             src={work.imagePath}
             alt={work.title}
-            fill
+            width={800}
+            height={800}
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-cover"
+            className="object-contain max-h-[400px] w-auto"
             placeholder="blur"
             blurDataURL={BLUR_DATA_URL}
             onError={() => setImgError(true)}
@@ -232,14 +233,15 @@ function DetailPanel({
         </div>
 
         {/* Large artwork image */}
-        <div className="relative aspect-[4/3] w-full bg-[#0d0d0d] flex-shrink-0 border-b border-gold/10">
+        <div className="relative w-full max-h-[500px] bg-[#111] flex-shrink-0 border-b border-gold/10 flex items-center justify-center" style={{ minHeight: '250px' }}>
           {!imgError ? (
             <Image
               src={work.imagePath}
               alt={work.title}
-              fill
+              width={1200}
+              height={1200}
               sizes="(max-width: 640px) 100vw, 580px"
-              className="object-cover"
+              className="object-contain max-h-[500px] w-auto"
               placeholder="blur"
               blurDataURL={BLUR_DATA_URL}
               onError={() => setImgError(true)}

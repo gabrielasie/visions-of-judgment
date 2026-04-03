@@ -60,14 +60,15 @@ function Thumbnail({ work, canto }: { work: Artwork; canto: CantoData }) {
       href={`/explore?canto=${work.canto}`}
       className="group flex flex-col gap-1.5 flex-1"
     >
-      <div className="relative aspect-[4/3] overflow-hidden bg-[#0d0d0d] border border-gold/15 group-hover:border-gold/40 transition-colors">
+      <div className="relative w-[120px] h-[120px] bg-[#111] border border-gold/15 group-hover:border-gold/40 transition-colors flex items-center justify-center flex-shrink-0">
         {!imgError ? (
           <Image
             src={work.imagePath}
             alt={`${work.title} — ${canto.title}`}
-            fill
-            sizes="(max-width: 768px) 30vw, 15vw"
-            className="object-cover"
+            width={120}
+            height={120}
+            sizes="120px"
+            className="object-contain w-full h-full"
             placeholder="blur"
             blurDataURL={BLUR_DATA_URL}
             onError={() => setImgError(true)}
