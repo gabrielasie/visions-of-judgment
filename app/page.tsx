@@ -13,7 +13,7 @@ export default function Home() {
           Visions of Judgment
         </h1>
         <p className="font-serif italic text-2xl text-gold mb-8">
-          Dante&rsquo;s Inferno and Four Centuries of Illustration
+          Dante&rsquo;s Inferno and Nineteenth- and Twentieth-Century Art
         </p>
         <p className="font-serif text-dust max-w-xl leading-relaxed text-lg mb-12">
           From Blake&rsquo;s visionary watercolors to Dalí&rsquo;s surrealist

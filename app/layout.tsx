@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Visions of Judgment \u2014 Dante\u2019s Inferno in Art",
   description:
-    "A comparative study of William Blake, Gustave Dor\u00e9, Simone Martini, and Salvador Dal\u00ed illustrating the Inferno.",
+    "A comparative study of William Blake, Gustave Dor\u00e9, Alberto Martini, and Salvador Dal\u00ed illustrating the Inferno.",
 }
 
 export default function RootLayout({
