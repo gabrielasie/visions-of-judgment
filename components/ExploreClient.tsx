@@ -27,15 +27,15 @@ export default function ExploreClient({ initialCanto = 'v' }: { initialCanto?: C
   return (
     <div className="relative min-h-screen">
       {/* Mobile: horizontal scrollable canto tab strip, sticks below fixed nav */}
-      <div className="lg:hidden sticky top-14 z-10 flex overflow-x-auto bg-canvas border-b border-gold/20 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+      <div className="lg:hidden sticky top-14 z-10 flex overflow-x-auto gap-2 px-4 py-2 bg-canvas border-b border-gold/20 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
         {CANTO_TABS.map((tab) => (
           <button
             key={tab.id}
             onClick={() => handleCantoChange(tab.id)}
-            className={`flex-shrink-0 px-5 py-3 font-sans text-xs tracking-[0.2em] uppercase transition-colors whitespace-nowrap border-b-2 ${
+            className={`flex-shrink-0 px-4 py-2 font-sans text-xs tracking-[0.2em] uppercase transition-colors whitespace-nowrap ${
               selectedCanto === tab.id
-                ? 'text-gold border-gold'
-                : 'text-dust border-transparent hover:text-parchment'
+                ? 'bg-[#c9a84c] text-[#0a0a0a] font-semibold'
+                : 'border border-[#3a3530] text-dust hover:border-[#c9a84c] hover:text-[#c9a84c]'
             }`}
           >
             {tab.label}
@@ -85,7 +85,7 @@ export default function ExploreClient({ initialCanto = 'v' }: { initialCanto?: C
         {/* Right panel — artwork grid */}
         <div className="w-full lg:w-[65%]">
           {/* Mobile: canto info above the grid */}
-          <div className="lg:hidden px-6 pt-8 pb-6">
+          <div className="lg:hidden px-6 pt-8 pb-6 max-h-[40vh] overflow-y-auto">
             <p className="font-sans text-xs tracking-[0.3em] uppercase text-dust mb-2">
               {canto.theme}
             </p>
@@ -100,6 +100,9 @@ export default function ExploreClient({ initialCanto = 'v' }: { initialCanto?: C
               </footer>
             </blockquote>
           </div>
+
+          {/* Gold separator between text panel and grid (mobile only) */}
+          <div className="lg:hidden w-full border-t border-gold/30 opacity-30" />
 
           {/* 2×2 grid (single column on mobile) */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-gold/10">

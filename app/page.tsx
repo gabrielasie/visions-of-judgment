@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero */}
-      <section className="flex flex-col items-center justify-center text-center px-8 py-32 border-b border-gold/20">
+      <section className="flex flex-col items-center justify-center text-center px-4 md:px-8 py-24 md:py-32 border-b border-gold/20">
         <p className="font-sans text-xs tracking-[0.3em] uppercase text-dust mb-6">
           A Thesis in the History of Art
         </p>
@@ -21,7 +21,7 @@ export default function Home() {
           three cantos of the Inferno into four radically different arguments
           about desire, despair, and evil.
         </p>
-        <div className="flex gap-6">
+        <div className="flex flex-wrap justify-center gap-4 md:gap-6">
           <Link
             href="/explore"
             className="font-sans text-sm tracking-widest uppercase px-8 py-3 border border-gold text-gold hover:bg-gold hover:text-canvas transition-colors"
@@ -38,7 +38,7 @@ export default function Home() {
       </section>
 
       {/* Cantos overview */}
-      <section className="px-8 py-20 max-w-5xl mx-auto w-full">
+      <section className="px-4 md:px-8 py-20 max-w-5xl mx-auto w-full">
         <h2 className="font-sans text-xs tracking-[0.3em] uppercase text-dust mb-12 text-center">
           Three Cantos, Three Circles
         </h2>
@@ -66,7 +66,7 @@ export default function Home() {
       </section>
 
       {/* Pull quote */}
-      <section className="px-8 py-20 border-t border-gold/20 text-center">
+      <section className="px-4 md:px-8 py-20 border-t border-gold/20 text-center">
         <blockquote className="font-serif italic text-2xl md:text-3xl text-parchment max-w-3xl mx-auto leading-relaxed">
           &ldquo;Each artist does not illustrate Dante&rsquo;s Hell — each
           artist builds their own, using Dante&rsquo;s words as quarry.&rdquo;

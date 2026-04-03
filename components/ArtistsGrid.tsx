@@ -33,7 +33,7 @@ export default function ArtistsGrid() {
             </p>
 
             {/* Canto thumbnails */}
-            <div className="flex gap-4 pt-1">
+            <div className="grid grid-cols-3 gap-2 w-full pt-1">
               {works.map((work) => {
                 const canto = cantos.find((c) => c.id === work.canto)!
                 return (
@@ -58,16 +58,16 @@ function Thumbnail({ work, canto }: { work: Artwork; canto: CantoData }) {
   return (
     <Link
       href={`/explore?canto=${work.canto}`}
-      className="group flex flex-col gap-1.5 flex-1"
+      className="group flex flex-col gap-1.5"
     >
-      <div className="relative w-[120px] h-[120px] bg-[#111] border border-gold/15 group-hover:border-gold/40 transition-colors flex items-center justify-center flex-shrink-0">
+      <div className="relative w-full aspect-square bg-[#0a0a0a] border border-gold/15 group-hover:border-gold/40 transition-colors flex items-center justify-center overflow-hidden">
         {!imgError ? (
           <Image
             src={work.imagePath}
             alt={`${work.title} — ${canto.title}`}
             width={120}
             height={120}
-            sizes="120px"
+            sizes="(max-width: 768px) 33vw, 120px"
             className="object-contain w-full h-full"
             placeholder="blur"
             blurDataURL={BLUR_DATA_URL}
