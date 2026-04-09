@@ -67,10 +67,12 @@ export default function Home() {
 
       {/* Pull quote */}
       <section className="px-4 md:px-8 py-20 border-t border-gold/20 text-center">
-        <blockquote className="font-serif italic text-2xl md:text-3xl text-parchment max-w-3xl mx-auto leading-relaxed">
-          &ldquo;Each artist does not illustrate Dante&rsquo;s Hell — each
-          artist builds their own, using Dante&rsquo;s words as quarry.&rdquo;
+        <blockquote className="font-serif italic text-2xl md:text-3xl text-parchment max-w-3xl mx-auto leading-relaxed mb-4">
+          &ldquo;From Blake&rsquo;s visionary Romanticism and Dor&eacute;&rsquo;s sublime moralism to Martini&rsquo;s grotesque Symbolism and Dal&iacute;&rsquo;s Surrealist explorations of the unconscious, each artist treats <em>Inferno</em> not as a static theological doctrine but as a framework for aesthetic and existential inquiry.&rdquo;
         </blockquote>
+        <p className="font-sans text-xs tracking-[0.2em] uppercase text-dust mt-4">
+          &mdash; Gabriela Sierocka, <em className="normal-case font-serif">Visions of Judgment</em>
+        </p>
       </section>
     </div>
   )

@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 const NAV_LINKS = [
   { href: '/explore', label: 'Explore' },
   { href: '/artists', label: 'Artists' },
+  { href: '/thesis', label: 'Thesis' },
   { href: '/about', label: 'About' },
 ]
 
@@ -25,12 +26,12 @@ export default function Nav() {
           <span className="hidden md:inline">Visions of Judgment</span>
         </Link>
 
-        <ul className="flex items-center gap-3 flex-shrink-0">
+        <ul className="flex items-center gap-1 md:gap-3 flex-shrink-0">
           {NAV_LINKS.map(({ href, label }) => (
             <li key={href}>
               <Link
                 href={href}
-                className={`font-sans text-xs tracking-[0.18em] uppercase transition-colors py-1 px-2 md:py-2 md:px-3 block ${
+                className={`font-sans text-[0.65rem] md:text-xs tracking-[0.12em] md:tracking-[0.18em] uppercase transition-colors py-1 px-1.5 md:py-2 md:px-3 block ${
                   pathname === href ? 'text-parchment' : 'text-dust hover:text-parchment'
                 }`}
               >
