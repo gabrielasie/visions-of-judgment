@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import { cantos } from '@/lib/data'
+import ScrollHint from '@/components/ScrollHint'
 
 export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero */}
-      <section className="flex flex-col items-center justify-center text-center px-4 md:px-8 py-24 md:py-32 border-b border-gold/20">
+      <section className="relative flex flex-col items-center justify-center text-center px-4 md:px-8 py-24 md:py-32 border-b border-gold/20 min-h-[90vh]">
         <p className="font-sans text-xs tracking-[0.3em] uppercase text-dust mb-6">
-          A Thesis in the History of Art
+          Senior Honors Thesis &middot; University of Notre Dame &middot; 2026
         </p>
         <h1 className="font-serif text-5xl md:text-7xl leading-tight text-parchment mb-4 max-w-3xl">
           Visions of Judgment
@@ -15,26 +16,52 @@ export default function Home() {
         <p className="font-serif italic text-2xl text-gold mb-8">
           Dante&rsquo;s Inferno and Nineteenth- and Twentieth-Century Art
         </p>
-        <p className="font-serif text-dust max-w-xl leading-relaxed text-lg mb-12">
-          From Blake&rsquo;s visionary watercolors to Dalí&rsquo;s surrealist
-          woodcuts, this study examines how four artists transformed the same
-          three cantos of the Inferno into four radically different arguments
-          about desire, despair, and evil.
+        <p className="font-serif text-dust max-w-xl leading-relaxed text-lg mb-8">
+          From Blake&rsquo;s visionary watercolors to Dal&iacute;&rsquo;s
+          Surrealist illustrations, this study examines how four artists
+          transformed the same three cantos of the Inferno into four radically
+          different visions of desire, despair, and evil.
         </p>
-        <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+
+        {/* Descriptor hints — hidden on mobile */}
+        <div className="hidden md:grid grid-cols-3 gap-6 max-w-xl w-full mb-3">
+          <span className="font-sans text-[0.6rem] tracking-[0.15em] uppercase text-[#464646] text-center">
+            ↓ Artworks &amp; analysis
+          </span>
+          <span className="font-sans text-[0.6rem] tracking-[0.15em] uppercase text-[#464646] text-center">
+            ↓ Full text with bibliography
+          </span>
+          <span className="font-sans text-[0.6rem] tracking-[0.15em] uppercase text-[#464646] text-center">
+            ↓ Author &amp; methodology
+          </span>
+        </div>
+
+        {/* Buttons */}
+        <div className="flex flex-col md:flex-row items-center gap-3 md:gap-6 w-full max-w-xl">
+          {/* Primary */}
           <Link
             href="/explore"
-            className="font-sans text-sm tracking-widest uppercase px-8 py-3 border border-gold text-gold hover:bg-gold hover:text-canvas transition-colors"
+            className="w-full md:w-auto bg-[#c9a84c] text-[#0a0a0a] font-semibold font-sans px-8 py-3 text-sm tracking-wide hover:bg-[#b8963e] transition-colors text-center"
           >
-            Explore the Works
+            Explore the Works &rarr;
           </Link>
+          {/* Secondary */}
+          <Link
+            href="/thesis"
+            className="w-full md:w-auto border border-[#c9a84c] text-[#c9a84c] font-sans px-8 py-3 text-sm tracking-wide hover:bg-[#c9a84c]/10 transition-colors text-center"
+          >
+            Read the Thesis &rarr;
+          </Link>
+          {/* Tertiary */}
           <Link
             href="/about"
-            className="font-sans text-sm tracking-widest uppercase px-8 py-3 border border-dust/40 text-dust hover:border-parchment hover:text-parchment transition-colors"
+            className="font-sans text-sm text-dust hover:underline transition-colors text-center mt-1 md:mt-0"
           >
-            About the Thesis
+            About &amp; Author
           </Link>
         </div>
+
+        <ScrollHint />
       </section>
 
       {/* Cantos overview */}
@@ -62,6 +89,14 @@ export default function Home() {
               </blockquote>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-10">
+          <Link
+            href="/thesis"
+            className="font-sans text-sm tracking-wide text-gold hover:underline transition-colors"
+          >
+            Read the full thesis &rarr;
+          </Link>
         </div>
       </section>
 
