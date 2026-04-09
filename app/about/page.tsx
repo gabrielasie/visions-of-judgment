@@ -150,15 +150,14 @@ export default function AboutPage() {
             <p className="text-dust leading-[1.85]">
               Gabriela Sierocka grew up in Poland and came to the University
               of Notre Dame to study Computer Science with a minor in Italian
-              Studies and Business Economics through the Glynn Family Honors
+              and Business Economics through the Glynn Family Honors
               Program. The research for this thesis took her across Florence,
               Ravenna, Madrid, Figueres, and Paris &mdash; following the
               artists who descended into Hell in search of something luminous.
             </p>
             <p className="text-dust leading-[1.85]">
               This thesis was completed as part of the Glynn Family Honors
-              Program and supported by the Franco Institute and Center for
-              Italian Studies at the University of Notre Dame.
+              Program at the University of Notre Dame.
             </p>
           </div>
         </section>
