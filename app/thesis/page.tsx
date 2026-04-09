@@ -241,7 +241,7 @@ export default function ThesisPage() {
             <h3 className="font-serif text-lg text-[#e8dcc8] mb-4">Significance</h3>
             <div className="font-serif text-[#e8dcc8] leading-[1.8] text-[1.0625rem] flex flex-col gap-5">
               <p>
-                The lasting relevance of <em>Inferno</em> lies in its capacity for reinvention.
+                The lasting relevance of <em>Inferno</em>  lies in its capacity for reinvention.
                 Each generation has discovered new meaning in Dante&rsquo;s poetic architecture of
                 Hell, transforming it into a reflection of contemporary fears and hopes. In the
                 nineteenth century, this meant responding to Romantic idealism, industrial upheaval,
@@ -274,7 +274,7 @@ export default function ThesisPage() {
             <div className="font-serif text-[#e8dcc8] leading-[1.8] text-[1.0625rem] flex flex-col gap-5">
               <p>
                 From its earliest circulation in manuscript form, Dante&rsquo;s{' '}
-                <em>Inferno</em> has exerted a uniquely visual magnetism. Few literary works so
+                <em>Inferno</em>  has exerted a uniquely visual magnetism. Few literary works so
                 vividly translate language into image: each canto unfolds as a carefully staged
                 tableau of movement, gesture, and atmosphere. The poet&rsquo;s architecture of
                 Hell, articulated through concentric circles, precise spatial orientation, and a
@@ -295,7 +295,7 @@ export default function ThesisPage() {
                 &lsquo;replace sight with understanding.&rsquo;
               </p>
               <p>
-                By the nineteenth century, the <em>Inferno</em> had become a crucible for
+                By the nineteenth century, the <em>Inferno</em>  had become a crucible for
                 aesthetic and psychological experimentation. The Enlightenment&rsquo;s rational
                 order gave way to Romantic imagination, and artists such as William Blake
                 transformed Dante&rsquo;s punishments into states of visionary perception. Saree
@@ -323,21 +323,21 @@ export default function ThesisPage() {
                 artistic re-creation across centuries.
               </p>
               <p>
-                <strong className="text-[#c9a84c] font-normal">Canto V:</strong> In the circle of
+                <strong className="text-[#c9a84c] font-normal">Canto V: </strong> In the circle of
                 the lustful, Dante&rsquo;s imagery becomes kinetic and theatrical. The whirlwind of
                 souls is both punishment and metaphor: desire rendered as movement without rest.
                 John Freccero describes the episode as a &lsquo;portrait in motion,&rsquo; where
                 narrative and image merge to produce a moral chiaroscuro of pity and peril.
               </p>
               <p>
-                <strong className="text-[#c9a84c] font-normal">Canto XIII:</strong> Here, the
+                <strong className="text-[#c9a84c] font-normal">Canto XIII: </strong> Here, the
                 horror of metamorphosis becomes Dante&rsquo;s visual language. When Dante plucks a
                 branch, it cries out in pain, bleeding and speaking&mdash;a terrifying fusion of
                 body and tree. Robert Hollander calls the canto &lsquo;a study in embodiment,&rsquo;
                 where moral transgression is made visible through material transformation.
               </p>
               <p>
-                <strong className="text-[#c9a84c] font-normal">Canto XXXIV:</strong> At the
+                <strong className="text-[#c9a84c] font-normal">Canto XXXIV: </strong> At the
                 poem&rsquo;s nadir, Dante overturns the medieval iconography of fire and descent.
                 Instead of flames, the lowest pit of Hell is a vast field of ice. The colossal,
                 motionless Lucifer embodies the perversion of divine order: an anti-Christ trapped
@@ -362,7 +362,7 @@ export default function ThesisPage() {
             </h2>
             <div className="font-serif text-[#e8dcc8] leading-[1.8] text-[1.0625rem] flex flex-col gap-5">
               <p>
-                William Blake (1757&ndash;1827) approached Dante&rsquo;s <em>Inferno</em> as both
+                William Blake (1757&ndash;1827) approached Dante&rsquo;s <em>Inferno</em>  as both
                 a poet and a prophet. For him, Hell was not a place of divine punishment but a
                 condition of the mind, a realm of perception. Blake&rsquo;s reading of Dante
                 reflects his place in the Romantic era, shaped by mystical Christianity,
@@ -408,11 +408,11 @@ export default function ThesisPage() {
             </h3>
             <div className="font-serif text-[#e8dcc8] leading-[1.8] text-[1.0625rem] flex flex-col gap-5">
               <p>
-                Blake&rsquo;s illustrations for the <em>Inferno</em> reveal his conviction that
+                Blake&rsquo;s illustrations for the <em>Inferno</em>  reveal his conviction that
                 sin and punishment are not external decrees but inner states of being. His series
                 of 102 watercolors translates Dante&rsquo;s physical torments into emotional and
                 spiritual conditions. This interpretation echoes his statement in{' '}
-                <em>The Marriage of Heaven and Hell</em> that &lsquo;Energy is Eternal
+                <em>The Marriage of Heaven and Hell</em>  that &lsquo;Energy is Eternal
                 Delight.&rsquo; For Blake, Dante&rsquo;s static moral law becomes an opportunity
                 to explore how imagination can redeem even suffering. Where Dante sees hierarchy,
                 Blake sees contradiction: energy against restraint, desire against reason,
@@ -708,7 +708,7 @@ export default function ThesisPage() {
             </h2>
             <div className="font-serif text-[#e8dcc8] leading-[1.8] text-[1.0625rem] flex flex-col gap-5">
               <p>
-                Dante&rsquo;s <em>Inferno</em> is, at its core, architectural. It is a place
+                Dante&rsquo;s <em>Inferno</em>  is, at its core, architectural. It is a place
                 carefully structured according to moral logic, descending in ordered circles toward
                 a frozen center. Among the artists examined here, Dor&eacute; remains closest to
                 this spatial worldview. Blake initiates the first rupture: spatial coherence begins
@@ -786,7 +786,7 @@ export default function ThesisPage() {
               <p>
                 The enduring power of Dante&rsquo;s Hell lies not in its flames or monsters but in
                 its adaptability. As belief systems shift and metaphysical certainties erode, the{' '}
-                <em>Inferno</em> continues to offer a framework through which humanity confronts its
+                <em>Inferno</em>  continues to offer a framework through which humanity confronts its
                 darkest questions. The geography fades, the theology transforms, yet the vision
                 persists: reimagined, refracted, and renewed across time. In the hands of these
                 artists, Dante&rsquo;s Hell becomes more than a destination beyond life. It becomes
